@@ -25,3 +25,8 @@ background-color: #215B52;
   height:100px;
 background-color: #162526;
 }
+
+.carousel-image {
+  display: flex;
+  justify-content: space-between;
+}
