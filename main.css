@@ -26,7 +26,24 @@ background-color: #215B52;
 background-color: #162526;
 }
 
-.carousel-image {
-  display: flex;
-  justify-content: space-between;
+
+/* This is the Grid Area for Home Page*/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  padding: 10px;
 }
+/* .grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(243, 243, 243, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  }  */
+
+.grid-item-color-ih{
+  border: 1px solid red;
+  background-color:black;
+  margin: 20px;
+}
+/* This is the Grid Area for Home Page */
