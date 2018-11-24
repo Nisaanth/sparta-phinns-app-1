@@ -1,0 +1,27 @@
+.row-one-navigation{
+  height:70px;
+background-color: #162526;
+}
+.row-two-genreTitle{
+  height:40px;
+background-color: #CAF7CB;
+}
+.row-three-mainVideo{
+  height:500px;
+background-color: #215B52;
+}
+.mainVideo-right{
+background-color: #408E74;
+}
+.sub-genre-container{
+  height:50px;
+background-color: #8DC185;
+}
+.carouse-container{
+  height:300px;
+background-color: #215B52;
+}
+.page-footer{
+  height:100px;
+background-color: #162526;
+}
