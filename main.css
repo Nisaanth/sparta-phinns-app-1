@@ -1,0 +1,71 @@
+body {
+  text-color: white;
+}
+
+
+
+.main-vid {
+  padding-top: 45px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 45px;
+}
+
+
+.side-vid {
+  width:315px;
+  height: 180px;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+
+.sug {
+  color: white;
+  padding-left: 50px;
+}
+
+.row2 {
+  background-color: #215b52;
+  height: 450px;
+}
+
+.the-incredibles-two img {
+  padding-top:25px;
+  padding-left:50px;
+  height: 400px;
+
+}
+
+.imd-rating {
+  color: white; 
+} 
+
+.imd-logo img {
+  width: 80px;
+  padding-top: 20px;
+  
+}
+
+.rating-star {
+  display: flex;
+  flex-direction: row;
+}
+
+.rating-star img {
+  height: 55px;
+  padding-top: 15px;
+  padding-left: 30px;
+}
+
+.rating-number {
+  padding-left:20px;
+}
+
+.info-list {
+  color:white;
+  list-style-type: none;
+  padding-top:200px;
+  padding-right:30px;
+
+}
