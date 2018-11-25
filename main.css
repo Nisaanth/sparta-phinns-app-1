@@ -56,15 +56,85 @@ background-color: #162526;
   padding-top: 10px;
   background-color: #215B52;
 }
-.h2-ih{
+.h1-ih{
   background-color: #408E74;
   padding-left: 15%;
   padding-top: 10px;
   border-bottom: #CAF7CB 10px solid;
   width: 100%;
 }
+
+.h2-ih{
+  background-color: #408E74;
+  padding-left: 5%;
+  border-bottom: #CAF7CB 10px solid;
+  width: 100%;
+}
+
 body{
   background-color: #162526;
 }
+.vid-caption{
+  color: #CAF7CB;
+}
 
-/* This is the Grid Area for Home Page */
+.logo {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+
+.signup{
+display: flex;
+justify-content: center;
+}
+
+
+h1.next{
+  color: white;
+  font-size: 500%;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+p.watch{
+  color: white;
+  font-size: 150%;
+  font-weight: 30px;
+  text-align: center;
+}
+
+.signin{
+position: absolute;
+top: 10px;
+right: 10px;
+}
+
+.btn-lg{
+margin: 15px 15px 15px 280px;
+width: 50%;
+/* text-align: center; */
+cursor: pointer;
+}
+
+p.policy{
+  color: black;
+  font-size: 12px;
+}
+
+.modal-footer{
+  display: flex;
+  justify-content: center;
+}
+
+p.existing{
+  display: flex;
+  justify-content: center;
+  margin: 0% 0% -2% 0%;
+}
+
+.pamel-body{
+  display: flex;
+  justify-content: center;
+}
