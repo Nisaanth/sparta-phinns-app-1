@@ -46,9 +46,9 @@ background-color: #162526;
   background-color:black;
   margin: 20px;
 } */
-.discrete-border-ih{
+/* .discrete-border-ih{
   border:1px solid #408e74;
-}
+} */
 .body-ih{
   background-color: #215B52;
 }
@@ -60,7 +60,8 @@ background-color: #162526;
   background-color: #408E74;
   padding-left: 15%;
   padding-top: 10px;
-  box-sizing: border-box;
+  border-bottom: #CAF7CB 10px solid;
+  width: 100%;
 }
 body{
   background-color: #162526;
