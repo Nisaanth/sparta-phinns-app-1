@@ -32,18 +32,38 @@ background-color: #162526;
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto;
   padding: 10px;
+  background-color: #162526;
+  right:0;
 }
-/* .grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(243, 243, 243, 0.8);
+.grid-item {
+  
   padding: 20px;
-  font-size: 30px;
-  text-align: center;
-  }  */
+  
+  } 
 
-.grid-item-color-ih{
+/* .grid-item-color-ih{
   border: 1px solid red;
   background-color:black;
   margin: 20px;
+} */
+.discrete-border-ih{
+  border:1px solid #408e74;
 }
+.body-ih{
+  background-color: #215B52;
+}
+.second-footer{
+  padding-top: 10px;
+  background-color: #215B52;
+}
+.h2-ih{
+  background-color: #408E74;
+  padding-left: 15%;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+body{
+  background-color: #162526;
+}
+
 /* This is the Grid Area for Home Page */
