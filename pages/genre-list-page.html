@@ -21,6 +21,48 @@
 </head>
 
 <body>
+    <!-- navbar start -->
+    <!-- NavBar -->
+    <div class="navigation">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #408e74; padding:0%;">
+            <a class="
+            navbar-brand" href="/index.html">
+                <img src="/assets/logo.png" width="80" height="80" alt="Brand" class="d-inline-block align-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link " href="/index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#">Series</a>
+                    <a class="nav-item nav-link" href="#">Films</a>
+                    <a class="nav-item nav-link" href="/pages/genre-list-page.html">Genres</a>
+                </div>
+                <div class="d-flex justify-content-end container">
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    </form>
+                    <!-- Dropdown -->
+                    <div class="d-flex nav-item dropdown justify-content-end " style="background-color: #408e74">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:black">
+                            User
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink" style="background-color: #408e74;">
+                            <a class="dropdown-item" href="#">Account</a>
+                            <a class="dropdown-item" href="#">Help Center</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Sign Out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- navbar end -->
+
     <div class="col-lg-12 carousel-container">
         <div class="container-fluid">
             <div id="carouselExample2" class="carousel slide" data-ride="carousel" data-interval="9000">
@@ -85,7 +127,7 @@
                             <div class="panel-thumbnail">
                                 <a href="#" title="image 8" class="thumb">
                                     <img src="/assets/spirite away.jpg" alt="">
-                                </a><a href="/assets/action.jpeg">Action</a>
+                                </a><a href="/pages/genre-page.html">Action</a>
                             </div>
                         </div>
                     </div>
@@ -111,5 +153,57 @@
             </div>
         </div>
     </div>
+
+    <!-- footer  -->
+
+    <div class="footerbar fixed-bottom" style="padding:0;">
+        <footer>
+            <div class="container">
+                <div class="row text-center text-xs-center text-sm-left text-md-left">
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <h5>Quick links</h5>
+                        <ul class="list-unstyled quick-links">
+                            <li><a href="/index.html"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right"></i>Series</a></li>
+                            <li><a href="/pages/genre-list-page.html"><i class="fa fa-angle-double-right"></i>Genre</a></li>
+                            <li><a href="#;"><i class="fa fa-angle-double-right"></i>Films</a></li>
+                        </ul>
+                    </div>
+                    <div class="d-flex align-self-center col-xs-12 col-sm-4 col-md-4">
+                        <ul class="list-unstyled quick-links">
+                            <li><a href="#;"><i class="fa fa-angle-double-right"></i>Account</a></li>
+                            <li><a href="#;"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                            <li><a href="/pages/contacts.html"><i class="fa fa-angle-double-right"></i>Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                    <ul class="list-unstyled list-inline social text-center">
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-apple"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-apple"></i></a></li>
+                        <li class="list-inline-item"><a href="#;"><i class="fa fa-css3"></i></a></li>
+                        <li class="list-inline-item"><a href="#;"><i class="fa fa-html5"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-github-square"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><img src="/assets/bootstrap-solid.svg" width="25"
+                                    height="25" alt=""></a></li>
+                    </ul>
+                </div>
+                </hr>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                    <p>All icons above are the programs we have use when creating this project</p>
+                    <p class="h6">&copy All right Reversed. <strong>Phinns</strong></p>
+                </div>
+                </hr>
+            </div>
+        </footer>
+    </div>
+    <!-- Footer End -->
 
 </html>
