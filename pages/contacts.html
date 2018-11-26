@@ -2,41 +2,246 @@
 <html>
 
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Page Title</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-  <script src="main.js"></script>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Genre List Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="/main.css" />
+    <script src="main.js"></script>
 </head>
 
-<!-- navbar start -->
-<div>
-  nav bar
-</div>
-<!-- navbar end -->
 
-<!-- row one  start-->
-<div class="row">
-  <div class="col-lg-9"> main-video </div>
-  <div class="col-lg-3"> related-videos</div>
-</div>
-<!-- row one end -->
-
-<!-- row two imd rating start -->
-<div>
-  imd-rating
-</div>
-<!-- row two imd rating end -->
-
-<!-- footer start -->
-<div>
-  footer
-</div>
-<!-- footer end -->
 
 <body>
+    <!-- navbar -->
+    <div class="navigation">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #408e74; padding:0%; border-bottom: solid 1px black">
+            <a class="
+                navbar-brand" href="/index.html">
+                <img src="/assets/logo.png" width="80" height="80" alt="Brand" class="d-inline-block align-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link " href="/index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#">Series</a>
+                    <a class="nav-item nav-link" href="#">Films</a>
+                    <a class="nav-item nav-link" href="/pages/video.html">Videos</a>
+                    <a class="nav-item nav-link" href="/pages/genre-list-page.html">Genres</a>
+                </div>
+                <div class="d-flex justify-content-end container">
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    </form>
+                    <!-- Dropdown -->
+                    <div class="d-flex nav-item dropdown justify-content-end " style="background-color: #408e74">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:white">
+                            User
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink" style="background-color: #408e74;">
+                            <a class="dropdown-item" href="#">Account</a>
+                            <a class="dropdown-item" href="#">Help Center</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Sign Out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
 
+    <!-- contacts -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <div class="team" style="background-color:#408e74">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6 col-lg-offset-3 text-center">
+                    <h2><span class="ion-minus"></span>Our Team<span class="ion-minus"></span></h2>
+                    <p>Engineering-21</p><br>
+                </div>
+            </div>
+
+            <div class="row text-center">
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+
+                    <img class="img-rounded" alt="team-photo" src="/assets/ghost_person_200x200_v1.png" width="100%">
+
+                    <div class="team-member">
+
+                        <h4>Ian Hawe</h4>
+
+                        <p>Technical Consutant</p>
+
+                    </div>
+                    <p class="social">
+                        <a href="https://github.com/ianhawe" target="_blank"><span class="fa fa-github-square"></span></a>
+                        <a href="mailto:ihawe@spartaglobal.com?" title="Phinns" target="_top"><i class="fa fa-envelope"></i></a>
+                        <a href="#"><span class="fa fa-linkedin-square"></span></a>
+                    </p>
+
+                </div>
+                <!--col-lg-4 -->
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <img class="img-rounded" alt="team-photo" src="/assets/ghost_person_200x200_v1.png" width="100%">
+                    <div class="team-member">
+                        <h4>Nithesh Vairavan</h4>
+                        <p>Technical Consultant</p>
+                    </div>
+                    <p class="social">
+                        <a href="https://github.com/nvairavan" target="_blank"><span class="fa fa-github-square"></span></a>
+                        <a href="mailto:nvairavan@spartaglobal.com?" title="Phinns" target="_top"><i class="fa fa-envelope"></i></a>
+                        <a href="#"><span class="fa fa-linkedin-square"></span></a>
+                    </p>
+                </div>
+                <!--col-lg-4 -->
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <img class="img-rounded" alt="team-photo" src="/assets/ghost_person_200x200_v1.png" width="100%">
+                    <div class="team-member">
+                        <h4>Paul Ciobanita</h4>
+                        <p>Technical Consultant</p>
+                    </div>
+                    <p class="social">
+                        <a href="https://github.com/Pciobanita" target="_blank"><span class="fa fa-github-square"></span></a>
+                        <a href="mailto:pciobanita@spartaglobal.com?" title="Phinns" target="_top"><i class="fa fa-envelope"></i></a>
+                        <a href="#"><span class="fa fa-linkedin-square"></span></a>
+                    </p>
+                </div> <!-- col-lg-4 -->
+            </div> <!-- row text-center -->
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <img class="img-rounded" alt="team-photo" src="/assets/ghost_person_200x200_v1.png" width="100%">
+                    <div class="team-member">
+
+                        <h4>Nisaanth Manegavasar</h4>
+
+                        <p>Technical Consultant</p>
+
+                    </div>
+
+                    <p class="social">
+                        <a href="https://github.com/Nisaanth" target="_blank"><span class="fa fa-github-square"></span></a>
+                        <a href="mailto:nmanegavasar@spartaglobal.com?" title="Phinns" target="_top"><i class="fa fa-envelope"></i></a>
+                        <a href="#"><span class="fa fa-linkedin-square"></span></a>
+                    </p>
+
+
+                </div>
+                <!--col-lg-4 -->
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+
+                    <img class="img-rounded" alt="team-photo" src="/assets/ghost_person_200x200_v1.png" width="100%">
+
+                    <div class="team-member">
+
+                        <h4>Hibah Abid</h4>
+
+                        <p>Technical Consultant</p>
+
+                    </div>
+                    <p class="social">
+                        <a href="https://github.com/hibs28" target="_blank"><span class="fa fa-github-square"></span></a>
+                        <a href="mailto:habid@spartaglobal.com?" title="Phinns" target="_top"><i class="fa fa-envelope"></i></a>
+                        <a href="#"><span class="fa fa-linkedin-square"></span></a>
+                    </p>
+
+
+                </div>
+                <!--col-lg-4 -->
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+
+                    <img class="img-rounded" alt="team-photo" src="/assets/ghost_person_200x200_v1.png" width="100%">
+
+                    <div class="team-member">
+                        <h4>Shahrukh Khan</h4>
+                        <p>Technical Consultant </p>
+                    </div>
+                    <p class="social">
+                        <a href="https://github.com/" target="_blank"><span class="fa fa-github-square"></span></a>
+                        <a href="mailto:skhan@spartaglobal.com?" title="Phinns" target="_top"><i class="fa fa-envelope"></i></a>
+                        <a href="#"><span class="fa fa-linkedin-square"></span></a>
+                    </p>
+
+
+                </div> <!-- col-lg-4 -->
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer  -->
+
+    <div class="footerbar" style="padding:0;">
+        <footer>
+            <div class="container">
+                <div class="row text-center text-xs-center text-sm-left text-md-left">
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <h5>Quick links</h5>
+                        <ul class="list-unstyled quick-links">
+                            <li><a href="/index.html"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right"></i>Series</a></li>
+                            <li><a href="/pages/genre-list-page.html"><i class="fa fa-angle-double-right"></i>Genre</a></li>
+                            <li><a href="#;"><i class="fa fa-angle-double-right"></i>Films</a></li>
+                        </ul>
+                    </div>
+                    <div class="d-flex align-self-center col-xs-12 col-sm-4 col-md-4">
+                        <ul class="list-unstyled quick-links">
+                            <li><a href="#;"><i class="fa fa-angle-double-right"></i>Account</a></li>
+                            <li><a href="#;"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                            <li><a href="/pages/contacts.html"><i class="fa fa-angle-double-right"></i>Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                    <ul class="list-unstyled list-inline social text-center">
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-apple"></i></a></li>
+                        <li class="list-inline-item"><a href="#;"><i class="fa fa-css3"></i></a></li>
+                        <li class="list-inline-item"><a href="#;"><i class="fa fa-html5"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-github-square"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><img src="/assets/bootstrap-solid.svg" width="25"
+                                    height="25" alt=""></a></li>
+                    </ul>
+                </div>
+                </hr>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                    <p>All icons above are the programs we have use when creating this project</p>
+                    <p class="h6">&copy All right Reversed. <strong>Phinns</strong></p>
+                </div>
+                </hr>
+            </div>
+        </footer>
+    </div>
+    <!-- Footer End -->
 </body>
 
 </html>

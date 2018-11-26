@@ -1,0 +1,407 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+.signup{
+display: flex;
+justify-content: center;
+}
+
+
+h1.next{
+  color: white;
+  font-size: 500%;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+p.watch{
+  color: white;
+  font-size: 150%;
+  font-weight: 30px;
+  text-align: center;
+}
+
+.signin{
+position: absolute;
+top: 10px;
+right: 10px;
+}
+
+.btn-lg{
+margin: 15px 15px 15px 150px;
+width: 50%;
+/* text-align: center; */
+cursor: pointer;
+}
+
+p.policy{
+  color: black;
+  font-size: 12px;
+}
+
+.modal-footer{
+  display: flex;
+  justify-content: center;
+}
+
+p.existing{
+  display: flex;
+  justify-content: center;
+  margin: 0% 0% -2% 0%;
+}
+
+.pamel-body{
+  display: flex;
+  justify-content: center;
+}
+
+.row-one-navigation{
+  height:70px;
+background-color: #162526;
+}
+.row-two-genreTitle{
+  height:40px;
+background-color: #CAF7CB;
+padding-left: 80px;
+}
+.row-three-mainVideo{
+  height:500px;
+background-color: #215B52;
+}
+.mainVideo-right{
+background-color: #408E74;
+}
+.sub-genre-container{
+  height:80px;
+background-color: #8DC185;
+padding-left: 70px;
+}
+.carousel-container{
+  height:300px;
+background-color: #215B52;
+}
+.page-footer{
+  height:100px;
+background-color: #162526;
+}
+
+
+@media (min-width: 768px) {
+
+  /* show 3 items */
+  .carousel-inner .active,
+  .carousel-inner .active + .carousel-item,
+  .carousel-inner .active + .carousel-item + .carousel-item,
+  .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item  {
+      display: block;
+  }
+  
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item,
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
+      transition: none;
+  }
+  
+  .carousel-inner .carousel-item-next,
+  .carousel-inner .carousel-item-prev {
+    position: relative;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+      position: absolute;
+      top: 0;
+      right: -25%;
+      z-index: -1;
+      display: block;
+      visibility: visible;
+  }
+  
+  /* left or forward direction */
+  .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+  .carousel-item-next.carousel-item-left + .carousel-item,
+  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item,
+  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+      position: relative;
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
+  }
+  
+  /* farthest right hidden item must be abso position for animations */
+  .carousel-inner .carousel-item-prev.carousel-item-right {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      display: block;
+      visibility: visible;
+  }
+  
+  /* right or prev direction */
+  .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+  .carousel-item-prev.carousel-item-right + .carousel-item,
+  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item,
+  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+      position: relative;
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+      display: block;
+      visibility: visible;
+  }
+
+}
+
+/* Bootstrap Lightbox using Modal */
+
+#profile-grid { overflow: auto; white-space: normal; } 
+#profile-grid .profile { padding-bottom: 40px; }
+#profile-grid .panel { padding: 0 }
+#profile-grid .panel-body { padding: 15px }
+#profile-grid .profile-name { font-weight: bold; }
+#profile-grid .thumbnail {margin-bottom:6px;}
+#profile-grid .panel-thumbnail { overflow: hidden; }
+#profile-grid .img-rounded { border-radius: 4px 4px 0 0;}
+
+.carousel-item iframe{
+  width: 100%;
+  height: 300px;
+}
+.carousel-item img{
+  width: 100%;
+  height: 300px;
+}
+body{
+  color: #408e74;
+}
+.mainVideo-right iframe{
+  width: 100%;
+  height: 500px;
+}
+.mainVideo-left p{
+ color: black;
+ font-size: 25px;
+ font-style: italic;
+ padding-left: 20px;
+}
+body {
+color: white;
+background-color: #
+}
+
+
+
+.main-vid {
+  padding-top: 45px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 45px;
+}
+
+
+.side-vid {
+  width:315px;
+  height: 180px;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+
+.sug {
+  color: white;
+  padding-left: 50px;
+}
+
+.row2 {
+  background-color: #215b52;
+  height: 550px;
+}
+.row-2-side h2{
+  padding-top: 100px;
+}
+
+.the-incredibles-two img {
+  padding-top:25px;
+  padding-left:50px;
+  height: 400px;
+
+}
+
+.imd-rating {
+  color: white; 
+} 
+
+.imd-logo img {
+  width: 80px;
+  padding-top: 20px;
+  
+}
+
+.rating-star {
+  display: flex;
+  flex-direction: row;
+}
+
+.rating-star img {
+  height: 55px;
+  padding-top: 15px;
+  padding-left: 30px;
+}
+
+.rating-number {
+  padding-left:20px;
+}
+
+.info-list {
+  color:white;
+  list-style-type: none;
+  padding-top:40px;
+  padding-right:30px;
+
+}
+
+
+.page-footer{
+height:100px;
+background-color: #162526;
+}
+ 
+.footerbar {
+padding: 60px 0;
+}
+ 
+.footerbar .footerbar-title {
+text-align: center;
+color: #007b5e;
+margin-bottom: 50px;
+text-transform: uppercase;
+}
+footer {
+background: #007b5e !important;
+}
+footer h5{
+padding-left: 10px;
+border-left: 3px solid #eeeeee;
+padding-bottom: 6px;
+margin-bottom: 20px;
+color:#ffffff;
+}
+footer a {
+color: #ffffff;
+text-decoration: none !important;
+background-color: transparent;
+-webkit-text-decoration-skip: objects;
+}
+footer ul.social li{
+padding: 3px 0;
+}
+footer ul.social li a i {
+margin-right: 5px;
+font-size:25px;
+-webkit-transition: .5s all ease;
+-moz-transition: .5s all ease;
+transition: .5s all ease;
+}
+footer ul.social li:hover a i {
+font-size:30px;
+margin-top:-10px;
+}
+footer ul.social li a,
+footer ul.quick-links li a{
+color:#ffffff;
+}
+footer ul.social li a:hover{
+color:#eeeeee;
+}
+footer ul.quick-links li{
+padding: 3px 0;
+-webkit-transition: .5s all ease;
+-moz-transition: .5s all ease;
+transition: .5s all ease;
+}
+footer ul.quick-links li:hover{
+padding: 3px 0;
+margin-left:5px;
+font-weight:700;
+}
+footer ul.quick-links li a i{
+margin-right: 5px;
+}
+footer ul.quick-links li:hover a i {
+font-weight: 700;
+}
+.team-member{
+color: #000;
+
+}
+ 
+@media (max-width:767px){
+footer h5 {
+padding-left: 0;
+border-left: transparent;
+padding-bottom: 0px;
+margin-bottom: 10px;
+}
+}
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.nav-item {
+color: white;
+
+}
+.social .fa{
+ color:white; 
+}
+.form-group label{
+color:black;
+}
+
+p.existing{
+color:black;
+}
+.modal-header{
+  color:black;
+  margin-right: 300px;
+}
