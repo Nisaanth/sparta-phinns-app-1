@@ -5,7 +5,6 @@
   justify-content: center;
   padding: 5%;
 }
-
 .signup{
 display: flex;
 justify-content: center;
@@ -34,7 +33,7 @@ right: 10px;
 }
 
 .btn-lg{
-margin: 15px 15px 15px 280px;
+margin: 15px 15px 15px 150px;
 width: 50%;
 /* text-align: center; */
 cursor: pointer;
@@ -180,7 +179,7 @@ background-color: #162526;
   height: 300px;
 }
 body{
-  color: white;
+  color: #408e74;
 }
 .mainVideo-right iframe{
   width: 100%;
@@ -193,7 +192,8 @@ body{
  padding-left: 20px;
 }
 body {
-  text-color: white;
+color: white;
+background-color: #
 }
 
 
@@ -334,6 +334,10 @@ margin-right: 5px;
 footer ul.quick-links li:hover a i {
 font-weight: 700;
 }
+.team-member{
+color: #000;
+
+}
  
 @media (max-width:767px){
 footer h5 {
@@ -379,6 +383,11 @@ margin-bottom: 10px;
 .button:hover {
   background-color: #555;
 }
-.row-one-navigation{
-  height: 90px;
+
+.nav-item {
+color: white;
+
+}
+.social .fa{
+ color:white; 
 }

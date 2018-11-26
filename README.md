@@ -40,6 +40,14 @@ Team PHINSS consisting of Ian, Paul, Nisaanth, Nithes, Hibbah and Shah created a
 
 3. edited bootstrap carousal
 
+4. Having two modals on the same page
+
+5. padding plus alignments
+
+6. naming conventions
+
+7. All the collaborating coding style are different
+
 ### Learning points
 
 1. how to communicate effectively
@@ -47,3 +55,5 @@ Team PHINSS consisting of Ian, Paul, Nisaanth, Nithes, Hibbah and Shah created a
 2. learned how to use modal
 
 4. learned how to use techniques together(CSS GRID + Carousel)
+
+5. Use comment more often.
